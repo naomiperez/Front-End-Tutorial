@@ -1,26 +1,25 @@
-# Front-End-Tutorial
-How to Create A Basic Project Portfolio with an HTML Website on CodePen
+# How to Create A Basic Project Portfolio with an HTML Website on CodePen
 
-Introduction
+## Introduction
 In this tutorial, you will be creating your first webpage. We will be using the web programming languages HTML and CSS to create a personal webpage with descriptions of your own computer science projects. The webpage will be responsive, meaning the text (and spaces between the text) will grow and shrink proportionally to the size you stretch the browser page to be. We’ll see how this works later in the tutorial. This will make the website more visually appealing! Having a personal portfolio of projects is very important when you are applying to colleges or jobs in the future, so that you can demonstrate to admissions officers or employers what you can do with the skills you learned in this course.
 
-Materials You Will Need
+### Materials You Will Need
 A computer with a browser installed like Chrome or Safari
 
 Notes: 
 The example code in the technical overview and for each step in the instructions will be shown in a different font with a yellow background. 
 In the Instructions section, the text highlighted in a slightly darker grey tone is the new code that we have added in each step.
 
-Technical Overview
+## Technical Overview
 In this tutorial, we will only be creating a static website, meaning the page will always look the same whenever you view it, unless you change your code later. We won’t be covering the alternative to static programming, which is dynamic programming (https://www.geeksforgeeks.org/difference-between-static-and-dynamic-web-pages/).
 
-Overview of HTML
+### Overview of HTML
 	We will be using HTML, which stands for Hypertext Markup Language, to allow the document we design to be displayed in a webpage. HTML creates the basic elements of a static website, like the structure of the website, where the elements are placed in the page, and the text, links, images, etc. 
 
-HTML Elements
+### HTML Elements
 HTML code is made up of elements, which define the structure and content of the webpage, such as paragraphs, headers, titles, etc.
 
-HTML Tags
+### HTML Tags
 HTML code uses tags to represent elements. A tag is a keyword surrounded by a less than sign < and a greater than sign >. These tags are recognized by the computer and converted into webpages you see on the internet. An example of a tag is the <body> tag, which designates an area of the webpage to display the main content of the web page. Most HTML tags need both an opening tag and a closing tag to store content inside. The opening tag is exactly what I described with the greater and less than sign, and the closing tag is just the same syntax as the opening tag, except with a backslash after the less than sign. For example:
 	opening tag →   <body>  </body>   ← closing tag
 
@@ -32,7 +31,7 @@ Note: The indent on the <p> tag is not necessary for the code to work, but it he
 
 You can read more about HTML tags at https://www.w3schools.com/tags/default.asp
 
-CSS: Styling the Webpage
+### CSS: Styling the Webpage
 	The other language we will be using is CSS, or Cascading Style Sheets, which allows us to add more formatting and design elements to the page, like spacing between elements of the webpage, colors, fonts, etc. In CSS, we use selectors to select elements of the HTML and add style rules to them. We select HTML elements to style them using the tag keyword followed by opening and closing curly braces { }. For example, if we want to style the text within the paragraph <p> tag, we type this into our CSS section of code:
 			p {
 			   
@@ -44,10 +43,10 @@ If we wanted to add a style property for this paragraph element, we must write i
 
 You can read more about CSS selectors at: https://www.w3schools.com/css/css_selectors.asp
 
-CodePen
+### CodePen
 	In this tutorial we will use a website called CodePen (codepen.io) to create our website. CodePen is an online text editor in which we can write HTML and CSS and the resulting web page will display right next to our code.
 
-Instructions
+## Instructions
 Open a browser and type in codepen.io
 If you already have an account, click “Pen”
 
@@ -123,7 +122,7 @@ You can click the “Save” button at the top of the screen to save your projec
 
 
 
-	How Our Web Page is Responsive
+## How Our Web Page is Responsive
 Notice the “vw” next to the “2.5” font size in our CSS. 
 
 This is the unit of the font size. We could type out “px” which stands for pixels. When we use “vw” instead of “px”, we are telling the browser that we want the font size to be proportional to the size of the browser window. If we had used “px”, the font would always be a fixed size. 
@@ -137,7 +136,7 @@ You can test this by shrinking or expanding the window size, and you will notice
 
 
 
-Conclusion
+## Conclusion
 	You’ve now created your first responsive personal webpage to demonstrate your computer science projects. Congratulations! In this tutorial, we covered a lot of material like HTML elements, tags, and attributes. We also discussed CSS properties and how to style a responsive web page using these properties. There is much more to learn about web page development, so check out these resources if you want to keep learning:
 HTML: https://www.w3schools.com/html/default.asp
 CSS: https://www.w3schools.com/css/default.asp
