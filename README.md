@@ -36,7 +36,7 @@ The other language we will be using is CSS, or Cascading Style Sheets, which all
 			```CSS p {
 			   
 }
-```
+
 If we wanted to add a style property for this paragraph element, we must write it within these curly braces. There is a list of properties you can choose from to define for each HTML element. For example, for our paragraph, we could define the properties “color”, “font-size”, and “margin”. To assign a value to a property, we type a semicolon after the property name, like so:
 			```CSS p {
 			    color: red;
