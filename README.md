@@ -21,14 +21,16 @@ HTML code is made up of elements, which define the structure and content of the 
 
 ### HTML Tags
 HTML code uses tags to represent elements. A tag is a keyword surrounded by a less than sign < and a greater than sign >. These tags are recognized by the computer and converted into webpages you see on the internet. An example of a tag is the <body> tag, which designates an area of the webpage to display the main content of the web page. Most HTML tags need both an opening tag and a closing tag to store content inside. The opening tag is exactly what I described with the greater and less than sign, and the closing tag is just the same syntax as the opening tag, except with a backslash after the less than sign. For example:
-	</br></br>opening tag →  ```HTML <body>  </body>```   ← closing tag
+	</br></br>opening tag →  ```<body>  </body>```   ← closing tag
 
-Webpages are written by creating many of these elements, and nesting information and other elements within them. Nesting HTML elements just means that you are placing (or typing) elements within the opening and closing tag of other HTML elements. For example, we can create a <body> element and nest a paragraph element within it using the <p> tag like so:
+Webpages are written by creating many of these elements, and nesting information and other elements within them. Nesting HTML elements just means that you are placing (or typing) elements within the opening and closing tag of other HTML elements. For example, we can create a ```<body>``` element and nest a paragraph element within it using the ```<p>``` tag like so:
 </br>
 </br>
+```
 <body>
 <p> Text here will be displayed in a paragraph format. </p>
 </body>
+```
 </br>
 </br>
 Note: The indent on the <p> tag is not necessary for the code to work, but it helps a lot to read the code when there are many tags nested within one another.
@@ -39,13 +41,13 @@ You can read more about HTML tags at https://www.w3schools.com/tags/default.asp
 The other language we will be using is CSS, or Cascading Style Sheets, which allows us to add more formatting and design elements to the page, like spacing between elements of the webpage, colors, fonts, etc. In CSS, we use selectors to select elements of the HTML and add style rules to them. We select HTML elements to style them using the tag keyword followed by opening and closing curly braces { }. For example, if we want to style the text within the paragraph <p> tag, we type this into our CSS section of code:
 </br>
 </br>
-			```CSS p { }```
+			```p { }```
 </br>
 </br>
 If we wanted to add a style property for this paragraph element, we must write it within these curly braces. There is a list of properties you can choose from to define for each HTML element. For example, for our paragraph, we could define the properties “color”, “font-size”, and “margin”. To assign a value to a property, we type a semicolon after the property name, like so:
 </br>
 </br>
-			```CSS p { color: red; }```
+			```p { color: red; }```
 </br>
 </br>
 You can read more about CSS selectors at: https://www.w3schools.com/css/css_selectors.asp
@@ -92,21 +94,21 @@ You can read more about HTML attributes here: https://www.w3schools.com/html/htm
 Now, type in a <body> tag. This is where the bulk of our webpage’s content will go. This element usually comes after the <head> tag in HTML code.
 
 
-Since we’re making a personal portfolio, we will probably want to display our name at the top of the webpage, with some heading like “Naomi’s Portfolio”. To do this, add an <h1> tag. This will make the text within the tag large, like a header.
+Since we’re making a personal portfolio, we will probably want to display our name at the top of the webpage, with some heading like “Naomi’s Portfolio”. To do this, add an ```<h1>``` tag. This will make the text within the tag large, like a header.
 
 
-This is the first bit of content that will be visible on the page! Note that the content in our <body> tag is not styled with CSS yet, so it may look a little ugly. It should look like this: 
+This is the first bit of content that will be visible on the page! Note that the content in our ```<body>``` tag is not styled with CSS yet, so it may look a little ugly. It should look like this: 
 
 
 
-Now, we’ll add our first project title and description. To do this, add an <h2> tag. The <h2> tag is a header element like <h1>, except the text nested within the tag will look slighty smaller on the web page. We will also add our project description in plain text, and since that text is within the <body> tag, it will be displayed on our webpage, too.
+Now, we’ll add our first project title and description. To do this, add an ```<h2>``` tag. The ```<h2>``` tag is a header element like ```<h1>```, except the text nested within the tag will look slighty smaller on the web page. We will also add our project description in plain text, and since that text is within the ```<body>``` tag, it will be displayed on our webpage, too.
 
 
 So far, your web page should look like this:
 
 
 
-To add more projects, just add a new <h2> tag after your last project description, and new project description after that. For example:
+To add more projects, just add a new ```<h2>``` tag after your last project description, and new project description after that. For example:
 
 
 
