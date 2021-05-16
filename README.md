@@ -146,7 +146,7 @@ You can test this by shrinking or expanding the window size, and you will notice
 
 
 ## Conclusion
-	You’ve now created your first responsive personal webpage to demonstrate your computer science projects. Congratulations! In this tutorial, we covered a lot of material like HTML elements, tags, and attributes. We also discussed CSS properties and how to style a responsive web page using these properties. There is much more to learn about web page development, so check out these resources if you want to keep learning:
+You’ve now created your first responsive personal webpage to demonstrate your computer science projects. Congratulations! In this tutorial, we covered a lot of material like HTML elements, tags, and attributes. We also discussed CSS properties and how to style a responsive web page using these properties. There is much more to learn about web page development, so check out these resources if you want to keep learning:
 HTML: https://www.w3schools.com/html/default.asp
 CSS: https://www.w3schools.com/css/default.asp
 Responsive Web Design: https://www.w3schools.com/html/html_responsive.asp
