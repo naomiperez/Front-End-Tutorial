@@ -45,7 +45,7 @@ If we wanted to add a style property for this paragraph element, we must write i
 You can read more about CSS selectors at: https://www.w3schools.com/css/css_selectors.asp
 
 ### CodePen
-	In this tutorial we will use a website called CodePen (codepen.io) to create our website. CodePen is an online text editor in which we can write HTML and CSS and the resulting web page will display right next to our code.
+In this tutorial we will use a website called CodePen (codepen.io) to create our website. CodePen is an online text editor in which we can write HTML and CSS and the resulting web page will display right next to our code.
 
 ## Instructions
 Open a browser and type in codepen.io
