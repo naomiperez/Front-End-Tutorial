@@ -21,27 +21,33 @@ HTML code is made up of elements, which define the structure and content of the 
 
 ### HTML Tags
 HTML code uses tags to represent elements. A tag is a keyword surrounded by a less than sign < and a greater than sign >. These tags are recognized by the computer and converted into webpages you see on the internet. An example of a tag is the <body> tag, which designates an area of the webpage to display the main content of the web page. Most HTML tags need both an opening tag and a closing tag to store content inside. The opening tag is exactly what I described with the greater and less than sign, and the closing tag is just the same syntax as the opening tag, except with a backslash after the less than sign. For example:
-	opening tag →   ```HTML <body>  </body>```   ← closing tag
+	</br></br>opening tag →  ```HTML <body>  </body>```   ← closing tag
 
 Webpages are written by creating many of these elements, and nesting information and other elements within them. Nesting HTML elements just means that you are placing (or typing) elements within the opening and closing tag of other HTML elements. For example, we can create a <body> element and nest a paragraph element within it using the <p> tag like so:
+</br>
+</br>
 <body>
 <p> Text here will be displayed in a paragraph format. </p>
 </body>
+</br>
+</br>
 Note: The indent on the <p> tag is not necessary for the code to work, but it helps a lot to read the code when there are many tags nested within one another.
 
 You can read more about HTML tags at https://www.w3schools.com/tags/default.asp
 
 ### CSS: Styling the Webpage
 The other language we will be using is CSS, or Cascading Style Sheets, which allows us to add more formatting and design elements to the page, like spacing between elements of the webpage, colors, fonts, etc. In CSS, we use selectors to select elements of the HTML and add style rules to them. We select HTML elements to style them using the tag keyword followed by opening and closing curly braces { }. For example, if we want to style the text within the paragraph <p> tag, we type this into our CSS section of code:
-			```CSS p {
-			   
-}
-
+</br>
+</br>
+			```CSS p { }```
+</br>
+</br>
 If we wanted to add a style property for this paragraph element, we must write it within these curly braces. There is a list of properties you can choose from to define for each HTML element. For example, for our paragraph, we could define the properties “color”, “font-size”, and “margin”. To assign a value to a property, we type a semicolon after the property name, like so:
-			```CSS p {
-			    color: red;
-}```
-
+</br>
+</br>
+			```CSS p { color: red; }```
+</br>
+</br>
 You can read more about CSS selectors at: https://www.w3schools.com/css/css_selectors.asp
 
 ### CodePen
